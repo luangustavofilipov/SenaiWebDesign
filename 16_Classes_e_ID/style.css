@@ -1,0 +1,25 @@
+h1 {
+    color: red;
+}
+
+p {
+    color: lightgrey;
+}
+
+h2 {
+    color:black;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Classes */
+.p-texto {
+    color: blue;
+}
+
+/* ID */
+#titulo-3 {
+    color:orange;
+    font-size: 25px;
+    text-transform: uppercase;
+}

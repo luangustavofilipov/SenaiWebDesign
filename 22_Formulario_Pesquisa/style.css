@@ -1,0 +1,43 @@
+body {
+    margin-top: 300px;
+}
+
+h1 {
+    font-family: 'Arial';
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+/* Alinhamento centralizado do formulário */
+form div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Formatação do campo de Pesquisa */
+.pesquisa input {
+    width: 500px;
+    padding: 14px;
+    border-radius: 24px;
+    border: solid 2px lightgray;
+    font-size: 14px;
+}
+
+/* Destacar o campo de pesquisa */
+form input:focus {
+    background-color: aliceblue;
+}
+
+/* Formatação do botão */
+.botao input {
+    border-radius: 5px;
+    padding: 9px;
+    width: 90px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: 'Arial';
+    font-size: 14px;
+}
+

@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Oswald:wght@400;500&family=Ubuntu&display=swap');
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    scroll-padding-top: 120px; /* Permite uma distância quando se clica no Nav */
+}
+
+html {
+    font-size: 18px; 
+    scroll-behavior: smooth; /* Permite transição suave quando se clica no Nav*/
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo';
+}
+
+/* Tornar o site responsivo no 1º elemento */
+img, iframe, video {
+    max-width: 100%;
+}
+
+h1 {
+    font-family: 'Ubuntu';
+    font-size: 3rem; /* Faz valer 3x o valor do elemento raiz (html) 3x 18px */
+}
+
+header {
+    background-color: #fff;
+    text-align: center;
+    position: sticky; /* Fixa o menu no topo */
+    top: 0;
+    padding: 0.7rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Heebo';
+    font-weight: normal;
+    padding: .5rem .6rem;
+    transition: all .8s; /* Permite transição suave ao posicionar o mouse */
+}
+
+nav a:hover {
+    color: rgb(255, 238, 60);
+    background-color: #000;
+}
+
+main, section {
+    height: 73vh;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.conteudo {
+    width: 90%;
+    margin: auto;
+    max-width: 800px; /* Limitador para não esticar muito*/
+}
+
+.conteudo h1 {
+    text-transform: uppercase;
+    font-family: 'Heebo';
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.conteudo p {
+    line-height: 2rem; /* espaço entre as linhas do parágrafo */
+}
+
+.cta {
+    font-family: 'Heebo';
+    text-decoration: none;
+    font-size: .8rem;
+    font-weight: 600;
+    background-color: rgb(255, 238, 60);
+    padding: 1.15rem 1.8rem;
+    line-height: 5.5rem;
+    color: #000;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* Pseudo-classe before */
+.cta::before {
+    content: "+"; /* Adiciona o elemnto + (via CSS) */
+    margin-right: 0.8rem;
+}
+
+.verde-agua {
+    background-color: #26ccca;
+    color: #fff;
+}
+
+#ux {
+    color: #fff;
+    background-image: url(imagens/h13-background-img-2-min.jpg);
+}
+
+#motion {
+    background-image: url(imagens/h13-background-img-3-min.jpg);
+    background-size: cover; /* ajusta a imagem de fundo ao tamanho do elemento */
+    background-position-x: center; /* ajusta a posição da imagem */
+}
+
+#brand {
+    background-image: url(imagens/h13-background-img-4-min.jpg);
+    color: #fff;
+}
+
+.texto {
+    color: #999;
+}
+
+#print {
+    color: #fff;
+    background-image: url(imagens/h13-background-img-5-min.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+
+#produto {
+    background-image: url(imagens/h13-background-img-1-min.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+
+#produto, #motion, #print {
+    background-attachment: fixed; /* Cria o efeito paralaxe*/
+}
+
+.conteudo {
+    width: 50%;
+    max-width: 800px;
+    margin: 0;
+    margin-left: 4rem;
+}
+
+/* Zapzap */
+.fixed {
+    position: fixed;
+    width: 65px;
+    height: 65px;
+    font-weight: bolder;
+    bottom: 90px;
+    right: 30px;
+}
+
+.fixed:hover {
+    background-color: green;
+    font-weight: bolder;
+    border-radius: 35px;
+}
+
+@media screen and (min-width: 768px) {
+    
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 10vh;
+    }
+
+    .logo {
+        width: 70%;
+        max-width: 800px;
+    }
+
+    header nav {
+        width: 70%;
+        max-width: 800px;
+    }
+
+    nav a {
+        font-size: 1.1rem;
+        padding: 0.7rem 1.0rem;
+    }
+
+    .conteudo h1 {
+        font-size: 5rem;
+        margin: 0;
+    }
+
+}

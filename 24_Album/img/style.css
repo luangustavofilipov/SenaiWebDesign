@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Verdana';
+    font-size: 1em;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+}
+
+#album {
+    display: flex;
+    flex-flow: row;
+}
+
+.coluna {
+    flex: 1 1 100%;
+    padding: 0px 5px;
+}
+
+section img {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}

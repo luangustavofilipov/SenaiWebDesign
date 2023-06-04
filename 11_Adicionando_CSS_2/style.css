@@ -1,0 +1,17 @@
+h1 {
+    font-family: Arial;
+    color:blue;
+}
+
+h2 {
+    font-family: Verdana;
+    color: brown;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: Verdana;
+    color: black;
+    font-size: 18px;
+}

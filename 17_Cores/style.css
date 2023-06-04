@@ -1,0 +1,29 @@
+h1 {
+    color:black;
+    font-family: Arial;
+    text-align: center;
+}
+
+p {
+    color: gray;
+    font-size: 20px;
+}
+
+/* ID */
+#titulo-2 {
+    color: green;
+    font-size: 15px;
+}
+
+/* Class - Cores */
+.nome {
+    color:bisque;
+}
+
+.hexa {
+    color: #6a40c4;
+}
+
+.rgba {
+    color: rgba(17, 197, 214, 1);
+}
