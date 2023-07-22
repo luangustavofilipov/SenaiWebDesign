@@ -1,0 +1,58 @@
+/* Reset da página (zerar margin e padding) */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Formatação do Cabeçalho */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: cornflowerblue;
+    color:white;
+    font-family: 'Arial';
+}
+
+/* Formatação da Seção */
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+
+form {
+    font-family: 'Arial';
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+/* Formatação dos Campos */
+form input, form textarea {
+    padding: 20px;
+    min-width: 300px;
+    border: solid 1px cornflowerblue;
+    border-radius: 10px;
+}
+
+/* Destaque dos campos (Focus) */
+form input:focus, form textarea:focus {
+    background-color: wheat;
+}
+
+/* Formatação do botão Enviar */
+form input[type=submit] {
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+}
+
+form label {
+    margin-left: 10px;
+}

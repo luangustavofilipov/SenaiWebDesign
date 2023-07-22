@@ -1,0 +1,42 @@
+* {
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 22pt;
+}
+
+h1.center {
+    margin-bottom: 40px;
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input.nota-input {
+    border-radius: 20px;
+    padding: 15px;
+    margin: 7px;
+    width: 120px;
+    height: 20px;
+    text-align: center;
+}
+
+input#nota4 {
+    margin-left: 17px;
+}
+
+input#nota2 {
+    margin-left: 5px;
+}
+
+input#nota1 {
+    margin-left: 5px;
+}
+
+button.btn-media {
+    margin-top: 40px;
+    border-radius: 20px;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+}

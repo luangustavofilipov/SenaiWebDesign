@@ -1,0 +1,139 @@
+/* Zerar margin e padding */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana';
+}
+
+/* Ajuste do plano de fundo */
+.plano-de-fundo {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(imagens/background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+/* Ajuste da barra de navegação */
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+/* Ajuste do logo */
+.logo {
+    width: 50px;
+    cursor: pointer;
+}
+
+/* Ajuste do ícone de menu */
+.menu-icon {
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav {
+    flex: 1px;
+    text-align: right;
+}
+
+/* Formatação da barra de navegação (remover marcadores e deixar links na horizontal */
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+/* Formatação da barra de navegação (links) */
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.linha {
+    display: flex;
+    height: 90%;
+    align-items: center;
+}
+
+.coluna {
+    flex-basis: 50%;
+}
+
+/* Formatação do Título Saara */
+h1 {
+    color: #fff;
+    font-size: 100px;
+}
+
+/* Formatação do texto */
+p {
+    color: #fff;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+/* Formatação do botão Explore */
+button {
+    width: 180px;
+    color: #000;
+    font-size: 14px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.cartao {
+    width: 300px;
+    height: 330px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+/* Inclusão das imagens */
+.cartao-1 {
+    background-image: url(imagens/pic-1.png);
+}
+
+.cartao-2 {
+    background-image: url(imagens/pic-2.png);
+}
+
+.cartao-3 {
+    background-image: url(imagens/pic-3.png);
+}
+
+.cartao-4 {
+    background-image: url(imagens/pic-4.png);
+}
+
+.cartao:hover {
+    transform: translateY(-15px);
+}
+
+h5 {
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+.cartao p {
+    text-shadow: 0 0 5px #000;
+}

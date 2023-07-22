@@ -1,0 +1,24 @@
+h1 {
+    color: red;
+}
+
+p {
+    color: green;
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Uso das classes */
+.p-texto {
+    color:blueviolet;
+}
+
+/* Uso do ID */
+#titulo-3 {
+    color: coral;
+    font-size: 20px;
+}
